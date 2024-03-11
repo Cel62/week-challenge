@@ -10,6 +10,7 @@ Pour ceux qui veulent savoir mon niveau dans chacun des langages ci-dessous les 
  - Java ->   J'en fais depuis 4 ans grâce à la création de plugins/mods avec Minecraft. (J'ai aussi demandé à ChatGPT de me donner des applications mobiles à faire)
  - Python -> J'ai commencé à en faire avec le lycée depuis 1 an et demi.
  - C++ / C# -> J'aimerai commencer à apprendre le C++ et le C#. On va dire que je connais les bases du C++ (bon ne parlons pas des pointeurs) et le C# se rapproche du Java donc je pense que ça devrait aller.
+ - Unreal Engine / Unity -> Pourquoi pas des jeux vidéos aussi ? Ça tombe bien, pour coder sur Unity, je dois utiliser le C#. Pour Unreal Engine, je pourrai utiliser le C++ mais je n'ai pas envie donc j'utiliserai les Blueprints. 
  - HTML / CSS / Javascript -> On va dire que j'ai les bases pour le HTML / CSS. J'aimerai approfondir mes connaissances en Javascript.
 
 Donc voici les projets que je compte effectuer et que vous retrouverez dans ce dépôt.

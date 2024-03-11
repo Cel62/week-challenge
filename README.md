@@ -1,9 +1,9 @@
 # Les semaines du défi
 
-J'ai décidé de me lancer dans un challenge de faire un projet (lié à l'informatique et à la programmation bien sûr) par semaine à partir de ce lundi 11 mars 2024 jusque la dernière semaine de 2024 (ou à la fin de mon année scolaire, je ne sais pas encore)
-J'ai généré ces projets avec ChatGPT en lui disant quels langages de programmation je connaissais déjà et ceux que je connaissais moins pour que je puisse les apprendre et pas me lancer dans un gros projet immédiatement.
-J'ai bien sûr encore le droit de travailler sur mes autres projets personnels comme mon serveur Minecraft mini-jeux [GDLCA Minigames](https://github.com/Cel62/GDLCA-Minigames) donc si des fois je rate des semaines, c'est normal. (Je le préciserai)
-Je peux aussi changer le contexte des projets si celui-ci ne me plait/m'inspire pas mais en restant avec le même langage de programmation.
+J'ai décidé de me lancer dans un challenge de faire un projet (lié à l'informatique et à la programmation bien sûr) par semaine à partir de ce lundi 11 mars 2024 jusque la dernière semaine de 2024 (ou à la fin de mon année scolaire, je ne sais pas encore)\
+J'ai généré ces projets avec ChatGPT en lui disant quels langages de programmation je connaissais déjà et ceux que je connaissais moins pour que je puisse les apprendre et pas me lancer dans un gros projet immédiatement.\
+J'ai bien sûr encore le droit de travailler sur mes autres projets personnels comme mon serveur Minecraft mini-jeux [GDLCA Minigames](https://github.com/Cel62/GDLCA-Minigames) donc si des fois je rate des semaines, c'est normal. (Je le préciserai)\
+Je peux aussi changer le contexte des projets si celui-ci ne me plait/m'inspire pas mais en restant avec le même langage de programmation.\
 Pour chaque projet, je préciserai le but du projet, ainsi que le langage, etc... (Vous verrez tout cela dans le README du projet associé.)
 
 Pour ceux qui veulent savoir mon niveau dans chacun des langages ci-dessous les voilà :

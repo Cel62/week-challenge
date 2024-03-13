@@ -14,6 +14,7 @@ public final class Main extends Application {
     @Override
     public void start(Stage stage) {
         stage.setTitle(WINDOW_TITLE);
+        stage.setResizable(false);
 
         Scene scene = new Scene(new MainView(), WINDOW_WIDTH, WINDOW_HEIGHT, Color.rgb(32, 32, 32));
         stage.setScene(scene);

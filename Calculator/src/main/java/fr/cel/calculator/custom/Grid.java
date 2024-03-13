@@ -1,5 +1,6 @@
 package fr.cel.calculator.custom;
 
+import fr.cel.calculator.MainView;
 import fr.cel.calculator.custom.NumberButton;
 import fr.cel.calculator.custom.NumberBox;
 import fr.cel.calculator.custom.SignButton;
@@ -15,7 +16,7 @@ import java.util.List;
 
 public class Grid extends VBox {
 
-    public Grid(Text resultCase) {
+    public Grid(MainView view) {
         super(20);
 
         this.setTranslateY(100);
@@ -24,48 +25,45 @@ public class Grid extends VBox {
 
         ObservableList<Node> components = this.getChildren();
 
-        SignButton backButton = new SignButton("←", resultCase);
-        SignButton squareButton = new SignButton("x²", resultCase);
-        SignButton squareRootButton = new SignButton("√x", resultCase);
-        SignButton divideButton = new SignButton("/", resultCase);
+        SignButton backButton = new SignButton("←", view);
+        SignButton squareButton = new SignButton("x²", view);
+        SignButton squareRootButton = new SignButton("√x", view);
+        SignButton divideButton = new SignButton("/", view);
 
         List<Button> secondRow = new ArrayList<>();
         for (int i = 7; i < 10; i++) {
-            NumberButton button = new NumberButton(i, resultCase);
+            NumberButton button = new NumberButton(i, view);
             secondRow.add(button);
         }
 
-        SignButton multiplyButton = new SignButton("*", resultCase);
+        SignButton multiplyButton = new SignButton("*", view);
         secondRow.add(multiplyButton);
 
         List<Button> thirdRow = new ArrayList<>();
         for (int i = 4; i < 7; i++) {
-            NumberButton button = new NumberButton(i, resultCase);
+            NumberButton button = new NumberButton(i, view);
             thirdRow.add(button);
         }
 
-        SignButton minusButton = new SignButton("-", resultCase);
+        SignButton minusButton = new SignButton("-", view);
         thirdRow.add(minusButton);
 
         List<Button> fourthRow = new ArrayList<>();
         for (int i = 1; i < 4; i++) {
-            NumberButton button = new NumberButton(i, resultCase);
+            NumberButton button = new NumberButton(i, view);
             fourthRow.add(button);
         }
 
-        SignButton plusButton = new SignButton("+", resultCase);
+        SignButton plusButton = new SignButton("+", view);
         fourthRow.add(plusButton);
 
-        NumberButton button0 = new NumberButton(0, resultCase);
-        SignButton buttonC = new SignButton("C", resultCase);
-        SignButton buttonDot = new SignButton(".", resultCase);
-        SignButton buttonEqual = new SignButton("=", resultCase);
+        SignButton buttonC = new SignButton("C", view);
+        NumberButton button0 = new NumberButton(0, view);
+        SignButton buttonDot = new SignButton(".", view);
+        SignButton buttonEqual = new SignButton("=", view);
 
-        components.add(new NumberBox(List.of(backButton, squareButton, squareRootButton, divideButton)));
-        components.add(new NumberBox(secondRow));
-        components.add(new NumberBox(thirdRow));
-        components.add(new NumberBox(fourthRow));
-        components.add(new NumberBox(List.of(button0, buttonC, buttonDot, buttonEqual)));
+        components.addAll(new NumberBox(List.of(backButton, squareButton, squareRootButton, divideButton)), new NumberBox(secondRow),
+                new NumberBox(thirdRow), new NumberBox(fourthRow), new NumberBox(List.of(buttonC, button0, buttonDot, buttonEqual)));
     }
 
 }

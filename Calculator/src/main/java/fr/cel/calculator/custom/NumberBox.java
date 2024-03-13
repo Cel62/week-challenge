@@ -9,9 +9,7 @@ public class NumberBox extends HBox {
 
     public NumberBox(List<Button> buttons) {
         super(30);
-
         this.setTranslateX(40);
-
         this.getChildren().addAll(buttons);
     }
 

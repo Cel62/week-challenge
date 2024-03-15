@@ -1,22 +1,18 @@
 package fr.cel.calculator.custom;
 
-import fr.cel.calculator.MainView;
-import fr.cel.calculator.custom.NumberButton;
-import fr.cel.calculator.custom.NumberBox;
-import fr.cel.calculator.custom.SignButton;
+import fr.cel.calculator.mode.NormalMode;
 import javafx.collections.ObservableList;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.VBox;
-import javafx.scene.text.Text;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Grid extends VBox {
 
-    public Grid(MainView view) {
+    public Grid(NormalMode view) {
         super(20);
 
         this.setTranslateY(100);

@@ -1,5 +1,6 @@
 package fr.cel.calculator;
 
+import fr.cel.calculator.mode.NormalMode;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.paint.Color;
@@ -16,7 +17,7 @@ public final class Main extends Application {
         stage.setTitle(WINDOW_TITLE);
         stage.setResizable(false);
 
-        Scene scene = new Scene(new MainView(), WINDOW_WIDTH, WINDOW_HEIGHT, Color.rgb(32, 32, 32));
+        Scene scene = new Scene(new NormalMode(), WINDOW_WIDTH, WINDOW_HEIGHT, Color.rgb(32, 32, 32));
         stage.setScene(scene);
 
         stage.show();

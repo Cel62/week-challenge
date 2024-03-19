@@ -15,8 +15,8 @@ Pour ceux qui veulent savoir mon niveau dans chacun des langages ci-dessous les 
 
 Donc voici les projets que je compte effectuer et que vous retrouverez dans ce dépôt.
 
- - Développer une calculatrice en Java
- - Créer un jeu de pendu en Python.
+ - Développer une calculatrice en Java ✅ (la calculatrice de base est fini ! j'aurai encore pu l'améliorer pendant la semaine mais cela n'empêche pas que je revienne dessus)
+ - Créer un jeu de pendu en Python. (en cours)
  - Construire un générateur de mots de passe en C++.
  - Développer un mini-jeu de plateforme en Unity
  - Élaborer un gestionnaire de contacts en Python.

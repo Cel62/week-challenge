@@ -1,22 +1,27 @@
 # Les semaines du défi
 
-J'ai décidé de me lancer dans un challenge de faire un projet (lié à l'informatique et à la programmation bien sûr) par semaine à partir de ce lundi 11 mars 2024 jusque la dernière semaine de 2024 (ou à la fin de mon année scolaire, je ne sais pas encore)\
-J'ai généré ces projets avec ChatGPT en lui disant quels langages de programmation je connaissais déjà et ceux que je connaissais moins pour que je puisse les apprendre et pas me lancer dans un gros projet immédiatement.\
-J'ai bien sûr encore le droit de travailler sur mes autres projets personnels comme mon serveur Minecraft mini-jeux [GDLCA Minigames](https://github.com/Cel62/GDLCA-Minigames) donc si des fois je rate des semaines, c'est normal. (Je le préciserai)\
+# Introduction
+J'ai décidé de me lancer dans un challenge de faire un projet (lié à l'informatique et à la programmation bien sûr) par semaine à partir de ce **lundi 11 mars 2024** jusque la dernière semaine de 2024 (ou à la fin de mon année scolaire, je ne sais pas encore).  
+
+J'ai généré ces projets avec *ChatGPT* en lui disant quels langages de programmation je connaissais déjà et ceux que je connaissais moins pour que je puisse les apprendre et pas me lancer dans un gros projet immédiatement.  
+
+J'ai bien sûr encore le droit de travailler sur mes autres projets personnels comme [GDLCA Minigames](https://github.com/Cel62/GDLCA-Minigames) ou [EldenRPG](https://github.com/Cel62/EldenRPG-Mod).  
+
+## Important
 Je peux aussi changer le contexte des projets si celui-ci ne me plait/m'inspire pas mais en restant avec le même langage de programmation.\
-Pour chaque projet, je préciserai le but du projet, ainsi que le langage, etc... (Vous verrez tout cela dans le README du projet associé.)
+Pour chaque projet, je préciserai le but du projet, ainsi que le langage, etc... (Vous verrez tout cela dans le **README** du projet associé.)
 
-Pour ceux qui veulent savoir mon niveau dans chacun des langages ci-dessous les voilà :
- - Java ->   J'en fais depuis 4 ans grâce à la création de plugins/mods avec Minecraft. (J'ai aussi demandé à ChatGPT de me donner des applications mobiles à faire)
- - Python -> J'ai commencé à en faire avec le lycée depuis 1 an et demi.
- - C++ / C# -> J'aimerai commencer à apprendre le C++ et le C#. On va dire que je connais les bases du C++ (bon ne parlons pas des pointeurs) et le C# se rapproche du Java donc je pense que ça devrait aller.
- - Unreal Engine / Unity -> Pourquoi pas des jeux vidéos aussi ? Ça tombe bien, pour coder sur Unity, je dois utiliser le C#. Pour Unreal Engine, je pourrai utiliser le C++ mais je n'ai pas envie donc j'utiliserai les Blueprints. 
- - HTML / CSS / Javascript -> On va dire que j'ai les bases pour le HTML / CSS. J'aimerai approfondir mes connaissances en Javascript.
+# Mon niveau dans chaque langage
+ - **Java** -> J'en fais depuis 4 ans grâce à la création de plugins/mods avec Minecraft.
+ - **Python** -> J'ai commencé à en faire avec le lycée depuis 1 an et demi.
+ - **C++** / **C#** -> J'aimerai commencer à apprendre le C++ et le C#. On va dire que je connais les bases du C++ (bon ne parlons pas des pointeurs) et le C# se rapproche du Java donc je pense que ça devrait aller.
+ - **Unreal Engine** / **Unity** -> Pourquoi pas des jeux vidéos aussi ? Ça tombe bien, pour coder sur Unity, je dois utiliser le C#. Pour Unreal Engine, je pourrai utiliser le C++ mais je n'ai pas envie donc j'utiliserai les Blueprints. 
+ - **HTML** / **CSS** / **Javascript** -> On va dire que j'ai les bases pour le HTML / CSS. J'aimerai approfondir mes connaissances en Javascript.
 
-Donc voici les projets que je compte effectuer et que vous retrouverez dans ce dépôt.
+# Les projets
 
- - Développer une calculatrice en Java ✅ (la calculatrice de base est fini ! j'aurai encore pu l'améliorer pendant la semaine mais cela n'empêche pas que je revienne dessus)
- - Créer un jeu de pendu en Python. (en cours)
+ - Développer une [calculatrice](https://github.com/Cel62/week-challenge/tree/main/Calculator) en Java ✅ (Semaine 1)
+ - Créer un [jeu de pendu](https://github.com/Cel62/week-challenge/tree/main/HangmanGame) en Python. (en cours) (Semaine 2)
  - Construire un générateur de mots de passe en C++.
  - Développer un mini-jeu de plateforme en Unity
  - Élaborer un gestionnaire de contacts en Python.

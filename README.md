@@ -22,8 +22,8 @@ Pour chaque projet, je préciserai le but du projet, ainsi que le langage, etc..
 
  - Développer une [calculatrice](https://github.com/Cel62/week-challenge/tree/main/Calculator) en Java ✅ (Semaine 1)
  - Créer un [jeu de pendu](https://github.com/Cel62/week-challenge/tree/main/HangmanGame) en Python. ✅ (Semaine 2)
- - Construire un générateur de mots de passe en C++.
- - Développer un mini-jeu de plateforme en Unity
+ - Construire un [générateur de mots de passe](https://github.com/Cel62/week-challenge/tree/main/PasswordGenerator) en C++. ✅ (Semaine 3)
+ - Développer un mini-jeu de plateforme en Unity.
  - Élaborer un gestionnaire de contacts en Python.
  - Créer un jeu de casse-briques en Java.
  - Développer un générateur de citations aléatoires en C#.

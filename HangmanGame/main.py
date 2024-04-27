@@ -32,7 +32,7 @@ def main():
     window.resizable(False, False)
     window.configure(background="grey")
 
-    # la liste de mots disponibles (seulement en minuscules)
+    # la liste de mots disponibles (seulement en minuscules pour l'instant)
     wordList = ["youtube", "twitch", "twitter", "instagram", "snapchat", "tiktok"]
     word = choice(wordList)
     # print(word, "est le mot choisi")
@@ -79,7 +79,7 @@ def main():
         otherKeysAllowed = {"ugrave": "ù", "eacute": "é", "apostrophe": "'", "egrave": "è", "ccedilla": "ç", "agrave": "à"}
 
         if event.keysym in otherKeysAllowed.keys():
-            tryKey(otherKeysAllowed.get(event.keysym))
+            tryKey(otherKeysAllowed[event.keysym])
         elif event.keysym in keysAllowed:
             tryKey(event.keysym)
 

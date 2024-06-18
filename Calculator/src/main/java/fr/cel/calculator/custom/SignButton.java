@@ -24,6 +24,4 @@ public class SignButton extends Button {
         });
     }
 
-
-
 }

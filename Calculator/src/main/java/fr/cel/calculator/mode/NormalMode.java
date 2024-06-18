@@ -11,7 +11,8 @@ import javafx.scene.text.TextAlignment;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter public class NormalMode extends Group {
+@Getter
+public class NormalMode extends Group {
 
     @Setter private double firstNumber = 0;
     @Setter private double secondNumber = 0;
@@ -34,7 +35,7 @@ import lombok.Setter;
         components.addAll(resultCase, new Grid(this));
 
         this.setOnKeyPressed(keyEvent -> {
-//            System.out.println("Key Pressed: " + keyEvent.getCode().getName());
+        // System.out.println("Key Pressed: " + keyEvent.getCode().getName());
 
             if (this.getResultCase().getText().equals("Infinity") || this.getResultCase().getText().equals("∞")) {
                 this.setFirstNumber(0);
@@ -60,34 +61,16 @@ import lombok.Setter;
     }
 
     public void operatorsNumpad(String keyName) {
-        if (keyName.equals("Add")) {
-            operators("+");
-            return;
-        }
+        switch (keyName) {
+            case "Add" -> operators("+");
+            case "Substract" -> operators("-");
+            case "Multiply" -> operators("*");
+            case "Divide" -> operators("/");
 
-        if (keyName.equals("Substract")) {
-            operators("-");
-            return;
-        }
+            // TODO "Enter" doesn't work with AZERTY keyboard ?
+            case "Equals", "Enter" -> operators("=");
 
-        if (keyName.equals("Multiply")) {
-            operators("*");
-            return;
-        }
-
-        if (keyName.equals("Divide")) {
-            operators("/");
-            return;
-        }
-
-        // TODO "Enter" doesn't work with AZERTY keyboard ?
-        if (keyName.equals("Equals") || keyName.equals("Enter")) {
-            operators("=");
-            return;
-        }
-
-        if (keyName.equals("Decimal") || keyName.equals("Comma") || keyName.equals("Semicolon")) {
-            operators(".");
+            case "Decimal", "Comma", "Semicolon" -> operators(".");
         }
 
     }
